@@ -59,7 +59,7 @@ $ cd data
 
 $ curl https://transfer.sh/11fhgc/eth.tar.gz -o eth.tar.gz
 
-$ tar -zxcf eth.tar.gz
+$ tar -zxvf eth.tar.gz
 
 $ cd ../
 
@@ -87,7 +87,7 @@ Once TensorBoard is running, navigate your web browser to localhost:6006 to view
 ``` bash
 $ curl https://transfer.sh/iMacq/pre_trained.tar.gz -o pre_trained.tar.gz
 
-$ tar -zxcf pre_trained.tar.gz
+$ tar -zxvf pre_trained.tar.gz
 
 $ python load_model.py \
 --sparse \
