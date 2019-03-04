@@ -50,6 +50,22 @@ optional arguments:
                         for testing)
 ```
 
+## data preparation
+### edge_attr_directory
+The directory that contains multiple .npz file. Each .npz file stores the scipy sparse matrix (N, N) - the adjacency matrix of the edge attribute.
+reference: [https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.save_npz.html](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.save_npz.html)
+
+### node_features_path
+a csv file containing the node attribute.
+- The first row contains the features name
+- should have the same node ordering as the edge attribute adjacency matrix
+
+### label_path
+a csv file containing the node label.
+- The first row must be "id, label"
+- id corresponds to the node id (zero indexing)
+- label can be any string
+
 ## example (train)
 
 ```bash
