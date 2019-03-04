@@ -70,7 +70,7 @@ a csv file containing the node label.
 ## example (train)
 
 ```bash
-$ git clone 
+$ git clone https://github.com/handasontam/GAT-with-edgewise-attention.git
 
 $ cd data
 
