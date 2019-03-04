@@ -74,7 +74,7 @@ $ git clone https://github.com/handasontam/GAT-with-edgewise-attention.git
 
 $ cd data
 
-$ curl https://transfer.sh/11fhgc/eth.tar.gz -o eth.tar.gz
+$ curl https://transfer.sh/11fhgc/eth.tar.gz -o eth.tar.gz  # md5: 62aef8b070d7be703152419f16e830d1
 
 $ tar -zxvf eth.tar.gz
 
@@ -102,7 +102,7 @@ Once TensorBoard is running, navigate your web browser to localhost:6006 to view
 ## example (load model)
 
 ``` bash
-$ curl https://transfer.sh/iMacq/pre_trained.tar.gz -o pre_trained.tar.gz
+$ curl https://transfer.sh/iMacq/pre_trained.tar.gz -o pre_trained.tar.gz  # md5: 041de9eb6e7dcd4ca74267c30a58ad70
 
 $ tar -zxvf pre_trained.tar.gz
 
