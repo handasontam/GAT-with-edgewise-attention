@@ -94,9 +94,9 @@ $ python load_model.py \
 --hid_units 5 \
 --n_heads 2 1 \
 --residual \
---edge_attr /home/handason/data/eth/edges \
---node_features_path /home/handason/data/eth/node_features.csv \
---label_path /home/handason/data/eth/label.csv \
+--edge_attr./data/eth/edges \
+--node_features_path ./data/eth/node_features.csv \
+--label_path ./data/eth/label.csv \
 --train_ratio 0.8 \
 --model_path ./pre_trained/mod_test.ckpt
 
