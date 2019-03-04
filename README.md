@@ -7,11 +7,10 @@ Graph Attention Networks (Veličković *et al.*, ICLR 2018): [https://arxiv.org/
 Here we provide the implementation of a Graph Attention Network (GAT) layer in TensorFlow, along with a minimal execution example (on the Cora dataset). The repository is organised as follows:
 - `data/` contains the necessary dataset files for Cora;
 - `models/` contains the implementation of the GAT network (`gat.py`);
-- `pre_trained/` contains a pre-trained Cora model (achieving 84.4% accuracy on the test set);
+- `pre_trained/` store model checkpoint);
 - `utils/` contains:
     * an implementation of an attention head, along with an experimental sparse version (`layers.py`);
     * preprocessing subroutines (`process.py`);
-    * preprocessing utilities for the PPI benchmark (`process_ppi.py`).
 
 
 ## Sparse version
